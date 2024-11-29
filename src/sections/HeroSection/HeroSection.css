@@ -1,0 +1,93 @@
+.hero-content {
+  background-color: #303030;
+  display: flex;
+  color: white;
+  height: 100vh;
+  padding-bottom: 3rem;
+}
+
+.hero-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.redirect-calculator {
+  visibility: hidden;
+}
+.header-details {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+  margin-top: -2rem;
+}
+
+.pointer-image {
+  height: 24px;
+  width: 112px;
+}
+
+.success-heading {
+  font-size: 36px;
+  white-space: nowrap;
+  color: white;
+}
+
+.cycle-count-text {
+  text-align: center;
+  margin-top: 2rem;
+}
+.hero-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-right: -4rem;
+}
+.hero-image img {
+  height: 90%;
+}
+.consultation-button {
+  visibility: hidden;
+}
+@media (max-width: 600px) {
+  .hero-content {
+    padding-top: 1rem;
+  }
+  .success-heading {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .progress-bar {
+    margin-top: -5rem;
+  }
+  .pointer-image {
+    margin-left: -7rem;
+  }
+  .hero-content {
+    display: block;
+  }
+  .hero-details {
+    gap: 1rem;
+  }
+  .redirect-calculator {
+    visibility: visible;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  .hero-image {
+    height: auto;
+  }
+  .consultation-button {
+    visibility: visible;
+    width: 100%;
+    padding: 20px;
+  }
+  .consultation-button > button {
+    width: 100%;
+  }
+}
